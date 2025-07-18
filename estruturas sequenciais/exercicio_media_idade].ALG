@@ -12,8 +12,7 @@ Var
    idade2: inteiro
    media_idade: real
    diferenca_idade: real
-   idade1_real: real
-   idade2_real: real
+
    
    
    
@@ -30,11 +29,10 @@ escreva("idade da segunda pessoa: ")
 leia(idade2)
 
 
-idade1_real <- idade1
-idade2_real <- idade2
 
-media_idade <- (idade1_real + idade2_real)/ 2
-diferenca_idade <- idade1_real - idade2_real
+
+media_idade <- (idade1 + idade2) / 2
+diferenca_idade <- idade1 - idade2
 
 escreval("Dados digitados: ")
 escreval("Nome 1 primeira pessoa: ", nome1)
